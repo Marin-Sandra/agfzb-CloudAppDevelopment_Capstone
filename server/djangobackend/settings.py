@@ -27,7 +27,7 @@ DEBUG = True
 
 APPEND_SLASH = True
 
-ALLOWED_HOSTS = ["localhost","msp.mybluemix.net"]
+ALLOWED_HOSTS = ["localhost","msp.us-south.cf.appdomain.cloud"]
 
 
 # Application definition

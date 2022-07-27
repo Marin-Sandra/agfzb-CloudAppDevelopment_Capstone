@@ -1,12 +1,12 @@
   applications:
   - name: djangoapp
     routes:
-      - route: msp.mybluemix.net
+      - route: msp.us-south.cf.appdomain.cloud
     memory: 128M
     buildpack: python_buildpack
   - name: djangoapp-nginx
     routes:
-      - route: msp.mybluemix.net/static
+      - route: msp.us-south.cf.appdomain.cloud/static
     memory: 128M
     buildpack: staticfile_buildpack
 #<img src="images/settingspy.png" width="75%"/>
