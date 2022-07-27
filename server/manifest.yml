@@ -1,11 +1,12 @@
   applications:
   - name: djangoapp
     routes:
-      - route: $HOST.$DOMAIN
+      - route: msp.mybluemix.net
     memory: 128M
     buildpack: python_buildpack
   - name: djangoapp-nginx
     routes:
-      - route: $HOST.$DOMAIN/static
+      - route: msp.mybluemix.net/static
     memory: 128M
     buildpack: staticfile_buildpack
+#<img src="images/settingspy.png" width="75%"/>
